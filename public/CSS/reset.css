@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "CG";
+}
+body{
+    background-image: url("../IMG/bg.png");
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+body.on{
+    overflow-y: hidden;
+}

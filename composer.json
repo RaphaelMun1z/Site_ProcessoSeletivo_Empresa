@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/twig-view": "2.*",
+        "slim/php-view": "^3.1",
+        "twig/twig": "^3.4"
+    },
+    "autoload": {
+        "psr-4" :{
+            "app\\" : "app/"
+        }
+    }
+}

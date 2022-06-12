@@ -1,0 +1,74 @@
+section#modal-screen{
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 997;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+section#modal-screen.show{
+    display: flex;
+}
+section#modal-screen > div#content-base.show{
+    height: 500px;
+}
+section#modal-screen > div#content-base{
+    position: relative;
+    display: flex;
+    width: 90vw;
+    max-width: 685px;
+    height: 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 0 4px #fff;
+    transition: all .5s ease-in-out;
+}
+section#modal-screen > div#content-base > img{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+section#modal-screen > div#content-base > p{
+    position: absolute;
+    display: inline-flex;
+    bottom: 0;
+    left: 0;
+    width: -moz-available;
+    height: min-content;
+    background-color: #fff;
+    padding: 10px 5px;
+    pointer-events: none;
+}
+section#modal-screen > div#content-base > button{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+section#modal-screen > div#content-base > button > i{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+section#modal-screen > div#content-base > button:hover{
+    opacity: .7;
+}

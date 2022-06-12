@@ -1,0 +1,28 @@
+section#copyright-base{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section#copyright-base > div{
+    position: relative;
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    pointer-events: none;
+}
+section#copyright-base > div > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #817f7f;
+    font-size: 12px;
+}
+section#copyright-base > div > span{
+    margin: 0 8px;
+    color: #817f7f;
+}
+section#copyright-base > div > img{
+    object-fit: contain;
+}
